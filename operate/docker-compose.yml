@@ -34,7 +34,7 @@ services:
     networks:
       - zeebe_network
   elasticsearch:
-    image: rokhmanlsk/elasticsearch-oss:7.10.2
+    image: ivanoviistudy365/elasticsearch-oss:7.10.2
     ports:
       - "9200:9200"
     environment:
